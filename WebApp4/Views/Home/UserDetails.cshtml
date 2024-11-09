@@ -1,0 +1,16 @@
+﻿@model User
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Информация о пользователе</title>
+</head>
+<body>
+    <div style="color: @ViewBag.Color">
+        <h1>Информация о пользователе</h1>
+        <p><strong>Имя:</strong> @Model.Name</p>
+        <p><strong>Возраст:</strong> @Model.Age</p>
+        <p><strong>Профессия:</strong> @Model.Occupation</p>
+        <p><strong>Описание:</strong> @Model.Description</p>
+    </div>
+</body>
+</html>
